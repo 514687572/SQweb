@@ -1,0 +1,258 @@
+html,
+body,
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: normal;
+    vertical-align: baseline;
+    font-family: "microsoft yahei";
+    font-weight: normal;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*禁止苹果系统所有默认样式*/
+
+html,
+body {
+    -webkit-text-size-adjust: none;
+}
+
+
+/*去除苹果设备下浏览器默认按钮样式与背景*/
+
+*:focus {
+    outline: none
+}
+
+
+/*禁止所有聚焦边框*/
+
+input[type=text],
+input[type=email],
+input[type=search],
+input[type=button],
+textarea {
+    -webkit-appearance: none;
+    outline: none;
+}
+
+button {
+    border-radius: 0;
+    // border: 1px #fff solid;
+}
+
+
+/* 屏蔽文本框高亮 */
+
+
+/*禁止苹果系统所有默认样式*/
+
+// 去除IE10+浏览器文本框后面的小叉叉
+input::-ms-clear {
+    display: none;
+}
+
+body,
+html {
+    min-width: 1200px;
+}
+
+.el-menu-item.is-active {
+    color: #303133;
+    background: none;
+}
+
+input {
+    outline: none;
+}
+
+.flex {
+    display: flex!important;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.justify-content {
+    justify-content: center
+}
+
+.align-items {
+    align-items: center
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.min-width {
+    min-width: 966px;
+}
+
+.comm-padding {
+    padding: 0 23px;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.el-form-item__label {
+    width: 96px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.el-date-editor--daterange.el-input,
+.el-date-editor--daterange.el-input__inner,
+.el-date-editor--timerange.el-input,
+.el-date-editor--timerange.el-input__inner {
+    width: 300px;
+}

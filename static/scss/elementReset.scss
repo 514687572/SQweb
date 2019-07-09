@@ -1,0 +1,197 @@
+//重置
+.el-menu-vertical-demo {
+    height: 100%!important;
+}
+
+.el-submenu__title i {
+    color: #FFFFFF;
+}
+// 文字居右
+.textRight {
+    text-align: right;
+}
+
+// 文字居左
+.textLeft {
+    text-align: left;
+}
+
+//重置element样式选中文字样式
+//.el-menu-item.is-active {
+//  color: #fff;
+//  background-color: #5cb0db;
+//}
+
+.icon-duoxuankuang2,
+.icon-checkbox {
+    margin-left: 10px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+// 移上去 变色
+tr.hoverTr {
+//  border: 1px #e4e7ea solid;
+}
+
+tr.hoverTr:hover {
+    /*border:1px #a3dceb solid;*/
+//  background: #f2f3f5;
+}
+
+.order-title {
+    margin: 30px 0;
+}
+
+.query,
+.postMail,
+.export {
+    width: 110px;
+    height: 40px;
+    background-color: #3fced0;
+    border-radius: 4px;
+    color: #fff;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.export {
+    background-color: #ef9e70;
+}
+
+.postMail{
+    background-color: #8bc34a;
+}
+
+.p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+    margin: 0 10px;
+    span {
+        color: #6b7076;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: solid 1px #e4e7ec;
+    font-size: 14px;
+    color: #bcbfc3;
+//  text-indent: 20px;
+    //  padding: 0 0 0 15px;
+}
+
+table {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    font-size: 14px;
+    td {
+        padding: 23px 0;
+        font-size: 14px;
+    }
+    tr {
+        border: 1px #eef0f1 solid;
+    }
+    tr:nth-of-type(2n) {
+        background-color: #fafbfc;
+    }
+    .icon-duoxuankuang2 {
+        margin-left: 10px;
+    }
+    .hover-td:hover {
+        text-decoration: underline;
+    }
+    .text-right {
+        i {
+            color: #ef9e70;
+        }
+    }
+    .text-color {
+        color: #1055aa;
+    }
+    .order-number-color {
+        color: #38404a;
+    }
+    /*已付清*/
+    .PaidOff {
+        color: #65be06;
+    }
+    .PendingPayment {
+        color: #ffc600;
+    }
+}
+
+.el-select {
+    width: 150px;
+}
+
+.confrim {
+    width: 70px;
+}
+
+.tiem-p {
+    width: 150px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+    i {
+        color: #5cb0db;
+        padding: 0 15px 0 0;
+    }
+}
+
+
+/*已付清*/
+
+.PaidOff {
+    color: #65be06;
+}
+
+
+/* 待确认*/
+
+.confirmed {
+    color: #5cb0db;
+}
+
+
+/*待结算*/
+
+.Settlement {
+    color: #ffc600;
+}
+
+
+/*已逾期*/
+
+.Overdue {
+    color: #ff0600;
+}
+//登录页面下拉选择角色
+.login-phone .el-select .el-input.is-focus .el-input__inner,.login-phone .el-select:hover .el-input__inner,.login-phone .el-select .el-input__inner{
+    border-color: transparent;
+    padding: 0;
+}
+//菜单图标
+.el-menu-item i{
+    color: #FFFFFF;      
+}
